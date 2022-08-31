@@ -1,0 +1,75 @@
+$card-border-width: 0;
+$card-border-radius: 0.25rem;
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-weight: 500;
+  color: var(--mprimary-100);
+  letter-spacing: 1.25px;
+  font-size: 1.75rem;
+}
+
+#card-group-01 div.card {
+  border-radius: 0;
+}
+
+#card-group-01 div.card img.card-img-top {
+  max-width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#card-group-01 h5.card-title {
+  font-weight: 500;
+  color: var(--msecondary-100);
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#card-group-01 p.card-text {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.border-right-primary {
+  max-height: auto !important;
+  border-right: 0.05rem solid rgb(30, 168, 187) !important;
+}
+
+.bg-section-020 {
+  background-color: rgb(53, 185, 203, 0.20);
+}
+
+
+#section-needs .content ul {
+  list-style: none;
+  padding: 0;  
+}
+
+#section-needs .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.35rem;
+}
+
+
+#section-needs .content ul i {
+  font-size: 1.25rem;
+  margin-right: 0.85rem;
+}
+
+#section-needs div.col-lg-6 img.img-fluid {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  width: 65%;
+}

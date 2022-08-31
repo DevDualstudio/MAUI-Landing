@@ -1,0 +1,29 @@
+#topbar {
+  background: var(--mprimary-130);
+  height: 50px;
+  font-size: 0.85rem;
+  color: #fff;
+  padding: 0;
+}
+
+#topbar .contact-info {
+  font-style: normal;
+  color: #fff;
+}
+
+#topbar .contact-info a,
+#topbar .contact-info span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info a {
+  line-height: 0;
+  text-decoration: none;
+}
+
+#topbar div.contact-info a:hover {
+  color: #fff;
+  text-decoration: underline;
+  transition: 0.3s ease-in-out 0s;
+}

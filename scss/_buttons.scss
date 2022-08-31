@@ -1,0 +1,42 @@
+$link-color: rgb(53, 185, 203);
+
+button.btn.btn-mprimary-100.rounded-0.py-3.px-4 {
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--mlight);
+}
+
+input.form-control.rounded-0.py-3 {
+    font-size: 1.15rem;
+    font-weight: normal;
+  }
+  
+
+input.form-control.rounded-0.py-3::placeholder {
+  font-size: 1.15rem;
+  letter-spacing: 0.95px;
+  color: #707070;
+  font-weight: normal;
+}
+
+div button.btn.btn-light.rounded-0.py-2.px-4 {
+    background-color: var(--mlight);
+    color: var(--mprimary-100);
+    text-transform: uppercase;
+}
+
+div button.btn.btn-light.rounded-0.py-2.px-4:hover {
+    background-color: var(--mgrey);
+}
+
+div button.btn.btn-mdark.rounded-0.py-2.px-4.ms-2 {
+    background-color: rgba(12, 22, 36, 0.35);
+    color: var(--mlight);
+    text-transform: uppercase;
+}
+
+div button.btn.btn-mdark.rounded-0.py-2.px-4.ms-2:hover {
+    background-color: rgba(12, 22, 36);
+}
