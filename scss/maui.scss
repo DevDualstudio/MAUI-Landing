@@ -1,36 +1,29 @@
-// sass scss/maui.scss:css/main.css --watch
+/* sass scss/maui.scss:css/main.css --watch */
 
-// Import Custom MAUI Variables (Overrides Default Bootstrap Variables)
+/* Import Custom MAUI Variables (Overrides Default Bootstrap Variables) */
 @import "../scss/variables";
 @import "../scss/global";
+@import "../scss/normalize";
 @import "../scss/buttons";
 @import "../scss/forms";
 @import "../scss/_login.scss";
-
 @import "../scss/index";
-@import  "../scss/footer";
-
+@import "../scss/services";
+@import "../scss/footer";
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
-
 @import "../scss/custom_colors";
 
-
-// // Import Bootstrap
+/* Import Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
-
-
-// Import Custom MAUI Mixins and Components
+/* Import Custom MAUI Mixins and Components */
 
 @import "../node_modules/bootstrap/scss/maps";
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/root";
 
-
-// Custom Components
-
+/* Custom Components */
 @import "../scss/navs";

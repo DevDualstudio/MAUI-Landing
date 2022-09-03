@@ -1,4 +1,6 @@
-.main-header-index {
+/* Header Index */
+
+#main-header-index {
   height: 500px;
   min-height: 500px;
   background-image: url("/assets/images/imagen-central-index.jpg");
@@ -19,3 +21,54 @@
   bottom: -10rem;
 }
 
+/* Header Servicios */
+
+#main-header-sevices {
+  position: relative;
+  height: calc(500px - 16px);
+  min-height: calc(500px - 16px);
+  background-image: url("/assets/images/removing-boxes-2021-09-24-03-26-37-utc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main-header-sevices::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#text-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-header h1 {
+  position: relative;
+  top: 12rem;
+  bottom: 0;
+  text-align: center;
+  font-weight: 700;
+  color: var(--mlight);
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: .5px;
+}
+
+.header-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div.header-bar .col-1 {
+  width: 100%;
+  background-color: var(--mprimary-100);
+  max-height: 1rem;
+}

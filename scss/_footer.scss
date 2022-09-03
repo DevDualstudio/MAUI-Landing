@@ -1,3 +1,4 @@
+/* Footer */
 .footer-bar {
   width: 100%;
   margin: 0;
@@ -52,10 +53,17 @@
   font-size: 1rem;
 }
 
-#footer .footer-top .footer-links ul li a {
+#footer div.footer-top div.footer-links ul li a {
   text-decoration: none;
   color: var(--mlight);
   font-weight: 300;
+}
+
+#footer div.footer-top div.footer-links ul li a:hover {
+  text-decoration: none;
+  color: var(--mlight);
+  text-decoration: underline;
+  transition: 0.3s ease-in-out 0s;
 }
 
 div.social-links {
@@ -97,4 +105,21 @@ div.social-links {
   text-decoration: none;
   color: var(--mlight);
   font-weight: 300;
+}
+
+#footer div.small.text-center a {
+  text-decoration: none;
+  color: var(--mlight);
+  font-weight: 300;
+}
+
+#footer div.small.text-center a {
+  text-decoration: none;
+  color: var(--mlight);
+  font-weight: 300;
+}
+
+#footer div.small.text-center a:hover {
+  text-decoration: underline;
+  transition: 0.3s ease-in-out 0s;
 }

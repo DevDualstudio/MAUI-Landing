@@ -1,0 +1,34 @@
+.title {
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--mprimary-100);
+}
+
+#main-section div.col-lg-6 h3 {
+  font-weight: 700;
+  color: var(--mprimary-100);
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+#main-section div.col-lg-6 p {
+  font-weight: 400;
+  color: #757575;
+  width: 85%;
+  text-align: left;
+}
+
+#main-section section div.container div.col-lg-6 img {
+  width: 75%;
+  height: auto;
+}
+
+#main-section button.btn.btn-msecondary-100.rounded-5 {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 16px 10px 16px;
+  max-width: 165px;
+}
