@@ -25,10 +25,11 @@ $card-border-radius: 0.25rem;
 }
 
 #card-group-01 h5.card-title {
-  font-weight: 500;
+  font-weight: 700;
   color: var(--msecondary-100);
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 #card-group-01 p.card-text {
@@ -41,18 +42,27 @@ $card-border-radius: 0.25rem;
 }
 
 .border-right-primary {
-  max-height: auto !important;
-  border-right: 0.05rem solid rgb(30, 168, 187) !important;
+  position: relative;
+  z-index: 1;
+}
+
+.border-right-primary:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 200px;
+  width: 25%;
+  border-right: 2px solid rgb(53, 185, 203, 0.5);
 }
 
 .bg-section-020 {
-  background-color: rgb(53, 185, 203, 0.20);
+  background-color: rgb(53, 185, 203, 0.2);
 }
-
 
 #section-needs .content ul {
   list-style: none;
-  padding: 0;  
+  padding: 0;
 }
 
 #section-needs .content ul li {
@@ -61,15 +71,56 @@ $card-border-radius: 0.25rem;
   margin-bottom: 0.35rem;
 }
 
-
 #section-needs .content ul i {
   font-size: 1.25rem;
   margin-right: 0.85rem;
+  color: var(--msecondary-100);
 }
 
-#section-needs div.col-lg-6 img.img-fluid {
+#section-needs div.col-lg-5 img.img-fluid {
   margin-left: auto;
   display: block;
   margin-right: auto;
-  width: 65%;
+  width: 350px;
+}
+
+#section-services div.container div h1 {
+  text-transform: uppercase;
+  color: var(--mprimary-100);
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+
+#section-services div.container div div div.card {
+  max-width: 23rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-services h5.card-title {
+  font-weight: 700;
+  color: var(--mprimary-100);
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+#section-services p.card-text {
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+#section-services div.col-lg-12.my-5.text-center button.btn.btn-msecondary-100 {
+  color: var(--mlight);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  width: 12.95rem;
+  height: auto;
+  padding: 0.65rem;
 }

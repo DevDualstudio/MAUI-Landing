@@ -1,0 +1,21 @@
+.main-header-index {
+  height: 500px;
+  min-height: 500px;
+  background-image: url("/assets/images/imagen-central-index.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#div-form-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-header {
+  position: relative;
+  top: 10rem;
+  bottom: -10rem;
+}
+

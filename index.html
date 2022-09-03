@@ -11,12 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="/css/main.css">
-
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="">
@@ -39,47 +38,51 @@
             </div>
         </div>
     </section>
+    <!-- End Top Bar -->
 
-
-    <nav id="navbar" class="navbar navbar-expand-lg">
-        <div class="container" style="width:1200px;">
-            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            </div>
-            <a href="#">
-                <img src="/assets/images/logotipo-blanco-01.png" alt="" class="logo">
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars text-mlight"></i>
             </button>
-            <div class="collapse navbar-collapse justify-content-md-center" id="navbarResponsive">
-                <ul class="navbar-nav justify-content-md-center mb-lg-0">
+
+            <div class="collapse navbar-collapse justify-content-lg-center" id="navbarsExample08">
+
+                <a href="#">
+                    <img src="/assets/images/logotipo-blanco-01.png" alt="" class="logo d-none d-md-block">
+                </a>
+
+                <ul class="navbar-nav my-2">
                     <li class="nav-item active">
-                        <a class="nav-link ms-5" href="#">Inicio</a>
+                        <a class="nav-link ms-lg-5" href="/index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-5" href="#">Servicios</a>
+                        <a class="nav-link ms-lg-5" href="/servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-5" href="#">Nosotros</a>
+                        <a class="nav-link ms-lg-5" href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ms-5" href="#">Contacto</a>
+                        <a class="nav-link ms-lg-5" href="#">Contacto</a>
                     </li>
                 </ul>
-                <div class="d-flex text-end ms-5">
+
+                <div class="d-flex ms-lg-5">
                     <button type="button" class="btn btn-msecondary-100 rounded-5">Inicia sesión</button>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- End Navbar -->
 
-    <!-- Header -->
+    <!-- Form header -->
     <header class="main-header-index">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6" id="form-col-header">
+            <div class="row" id="div-form-header">
+                <div class="col-lg-8" id="form-header">
                     <form>
                         <div class="input-group">
                             <input type="text" class="form-control rounded-0 py-3"
@@ -97,8 +100,9 @@
             </div>
         </div>
     </header>
+    <!-- End Form header -->
 
-    <!-- Page Content -->
+    <!-- Entregamos -->
     <section class="py-5">
         <div class="container">
             <div class="section-title">
@@ -141,11 +145,13 @@
             </div>
         </div>
     </section>
+    <!-- End Entregamos -->
 
+    <!-- Necesidades -->
     <section class="py-5 bg-section-020" id="section-needs">
-        <div class="container">
+        <div class="container w-75">
             <div class="row">
-                <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center">
+                <div class="col-lg-7 content d-flex flex-column justify-content-center">
                     <h3 class="fw-bold">Cada vez más cerca de ti...<br>
                         de tus necesidades
                     </h3>
@@ -153,73 +159,136 @@
                     <ul>
                         <li>
                             <i class="fa-solid fa-check"></i>
-                            <div>
-                                <p>Guadalajara</p>
-                            </div>
+                            <p class="fw-bold">Guadalajara</p>
                         </li>
                         <li>
                             <i class="fa-solid fa-check"></i>
-                            <div>
-                                <p>Ciudad de México</p>
-                            </div>
+                            <p class="fw-bold">Ciudad de México</p>
                         </li>
                         <li>
                             <i class="fa-solid fa-check"></i>
-                            <div>
-                                <p>Monterrey</p>
-                            </div>
+                            <p class="fw-bold">Monterrey</p>
                         </li>
                         <li>
                             <i class="fa-solid fa-check"></i>
-                            <div>
-                                <p>Nuevo Laredo</p>
-                            </div>
+                            <p class="fw-bold">Nuevo Laredo</p>
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <img src="assets/images/img-deliveryman.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section class="py-5">
+    <!-- End Necesidades -->
+
+    <!--  Servicios -->
+    <section class="py-5" id="section-services">
         <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/images/delivery-with-smile-2021-09-02-05-14-34-utc.jpg" class="card-img-top" alt="...">
+            <div class="col-lg-12 mb-5">
+                <h1 class="text-center">Servicios</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img src="/assets/images/delivery-with-smile-2021-09-02-05-14-34-utc.jpg"
+                            class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Paquetería y mensajería</h5>
                             <p class="card-text">Envía desde un sobre, hasta un paquete de 600 kg. máximo.</p>
                         </div>
-                        
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/images/all-white-tractor-trailer-driving-on-a-highway-tra-2022-01-27-06-05-14-utc.jpg" class="card-img-top" alt="...">
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img src="/assets/images/all-white-tractor-trailer-driving-on-a-highway-tra-2022-01-27-06-05-14-utc.jpg"
+                            class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Camión completo o consolidado</h5>
                             <p class="card-text">La mercancía es entarimada y emplayada para mayor seguridad.</p>
                         </div>
-                       
+
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="/assets/images/checkig-shipping-info-2021-08-29-03-28-39-utc.jpg" class="card-img-top" alt="...">
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <img src="/assets/images/checkig-shipping-info-2021-08-29-03-28-39-utc.jpg"
+                            class="card-img-top rounded-0" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Almacenaje y distribución</h5>
-                            <p class="card-text">Contamos con la infraestructura necesaria para satisfacer tus requerimientos de almacenaje.</p>
+                            <p class="card-text">Contamos con la infraestructura necesaria para satisfacer tus
+                                requerimientos de almacenaje.</p>
                         </div>
-                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-12 my-5 text-center">
+                <button class="btn btn-msecondary-100 rounded-5">Saber más</button>
+            </div>
+        </div>
+    </section>
+    <!-- End Servicios -->
+
+    <!--  Footer -->
+    <div class="footer-bar">
+        <div class="col-1-3">
+            <br></br>
+        </div>
+        <div class="col-2-3">
+            <br></br>
+        </div>
+        <div class="col-3-3">
+            <br></br>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 footer-links">
+                        <h4>Legales</h4>
+                        <ul>
+                            <li><a href="#">Aviso de privacidad</a></li>
+                            <li><a href="#">Términos de Uso</a></li>
+                            <li><a href="#">Mapa del Sitio</a></li>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <h4 class="text-center">Síguenos</h4>
+                        <div class="social-links">
+                            <a class="mx-2" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="mx-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="mx-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="mx-2" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+
+                        <img src="/assets/images/logotipo-blanco-01.png" alt="" class="img-fluid logo-footer">
+                        
+                        <div class="small text-center mb-2">
+                            &copy; <a href="#!" class="text-decoration-none text-mlight">Paquetería MAUI</a><span>. Todos los derechos reservados.
+                                <script>document.write(new Date().getFullYear())</script>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <h4>Contacto</h4>
+                        <p class="text-light fw-light">Calzada Jesús González Gallo 2978 <br>
+                            Guadalajara, Jalisco. México.<br><br>
+                            <strong>Teléfono:</strong> +52 3315 78 0291<br>
+                            <strong>Email:</strong> avelazquez_maui@gmail.com<br>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </footer>
+    <!-- End Footer -->
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
