@@ -77,6 +77,7 @@ a.text-decoration-none:hover {
   color: var(--mprimary-100);
   letter-spacing: 1.25px;
   font-size: 1.75rem;
+  line-height: 1.65;
 }
 
 #card-group-01 div.card {
