@@ -1,0 +1,60 @@
+.section-subtitle {
+  text-align: center;
+}
+
+#main p.section-text-grey {
+  font-size: 1.95rem;
+  color: rgb(117, 117, 117);
+  line-height: 1.35;
+  font-weight: 400;
+}
+
+#card-group-02 div.card {
+  border-radius: 0;
+}
+
+#card-group-02 div.card img.card-img-top {
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#card-group-02 h5.card-title {
+  margin-top: 1.25rem;
+  font-weight: 700;
+  color: var(--msecondary-100);
+  text-align: center;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+#section-benefits div.col-lg-6 h3 {
+  font-size: 3.35rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  margin-bottom: 2rem;
+}
+
+
+#section-benefits .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#section-benefits .content ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.35rem;
+}
+
+#section-benefits .content ul li h5 {
+  color: rgb(112, 112, 112);
+  font-weight: 400;
+}
+
+#section-benefits .content ul i {
+  font-size: 1.25rem;
+  margin-right: 0.85rem;
+  color: var(--mprimary-100);
+}

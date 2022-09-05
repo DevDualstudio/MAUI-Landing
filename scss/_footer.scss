@@ -123,3 +123,31 @@ div.social-links {
   text-decoration: underline;
   transition: 0.3s ease-in-out 0s;
 }
+
+/* Top button */
+
+#top-button {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  right: 15px;
+  bottom: 15px;
+  background: var(--mprimary-100);
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+
+#top-button i {
+  color: #fff;
+  line-height: 0;
+}
+
+#top-button:hover {
+  background-color: var(--mprimary-130);
+}

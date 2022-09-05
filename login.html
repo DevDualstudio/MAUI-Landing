@@ -1,12 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login | MAUI</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
 </head>
+
 <body>
-    
+    <!-- Top Bar -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-center justify-content-md-end">
+            <div class="contact-info d-flex align-items-center">
+                <a class="d-flex align-items-center" href="tel:800675555098">Llámanos: 800 675
+                    555 098</a>
+                <a class="d-flex align-items-center ms-5" href="mailto:soporte@maui.mx">soporte@maui.mx</a>
+                <span class="d-flex align-items-center ms-5 d-none d-md-block">Horario de Atención: 8:45 am. - 8:45
+                    pm.</span>
+            </div>
+        </div>
+    </section>
+    <!-- End Top Bar -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-mlight"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-lg-center" id="navbarsExample08">
+
+                <a href="#">
+                    <img src="/assets/images/logotipo-blanco-01.png" alt="" class="logo d-none d-md-block">
+                </a>
+
+                <ul class="navbar-nav my-2">
+                    <li class="nav-item">
+                        <a class="nav-link ms-lg-5" href="/index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link ms-lg-5" href="/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-lg-5" href="/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-lg-5" href="/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex ms-lg-5">
+                    <button type="button" class="btn btn-msecondary-100 rounded-5">Inicia sesión</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <section class="login">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 px-0 d-none d-sm-block">
+                    <img src="/assets/images/joyful-male-worker-with-parcel-standing-in-coffee-2022-01-19-15-56-53-utc.jpg"
+                        alt="" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
+                </div>
+                <div class="col-sm-6">
+                    <div class="px-5 ms-xl-4">
+                        <h1 class="h1 fw-bold mb-0 pt-5 mt-xl-4 text-mprimary-100">Inicia sesión para continuar</h1>
+                        <p class="h5 fw-normal">¿No tienes cuenta? Crea tu cuenta de cliente <a
+                                class="text-decoration-none" href="#!">aquí</a></p>
+                    </div>
+                    <div class="d-flex align-items-center px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
+                        <form style="max-width: 35rem; width: 35rem">
+                            <div class="mb-4">
+                                <label for="emailInput" class="form-label">Email</label>
+                                <input type="email" class="form-control form-control-lg" id="emailInput"
+                                    placeholder="admin@company.com">
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="passwordInput" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control form-control-lg" id="passwordInput">
+                            </div>
+
+                            <div class="row mb-4">
+                                <div class="col d-flex justify-content-center">
+                                    <!-- Checkbox -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31"
+                                            checked />
+                                        <label class="form-check-label small" for="form2Example31"> Recordar mi
+                                            contraseña </label>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <!-- Simple link -->
+                                    <a class="text-decoration-none small" href="#!">¿Olvidaste tu contraseña?</a>
+                                </div>
+                            </div>
+
+                            <div class="pt-1 mb-4 text-center">
+                                <button class="btn btn-msecondary-100 rounded-3 btn-block mt-3" type="button"
+                                    style="width: 100%; color: #fff; text-transform: uppercase;">Iniciar
+                                    sesión</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="row justify-content-center px-5 ms-xl-4">
+                        <div class="col-lg-6">
+                            <h3>¿Necesitas ayuda?</h3>
+                            <a class="fw-semibold text-decoration-none" href="">SERVICIO DE ATENCIÓN AL CLIENTE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--  Footer -->
+    <div class="footer-bar">
+        <div class="col-1-3">
+            <br></br>
+        </div>
+        <div class="col-2-3">
+            <br></br>
+        </div>
+        <div class="col-3-3">
+            <br></br>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 footer-links">
+                        <h4>Legales</h4>
+                        <ul>
+                            <li><a href="#">Aviso de privacidad</a></li>
+                            <li><a href="#">Términos de Uso</a></li>
+                            <li><a href="#">Mapa del Sitio</a></li>
+                            <li><a href="#">Preguntas Frecuentes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <h4 class="text-center">Síguenos</h4>
+                        <div class="social-links">
+                            <a class="mx-2" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a class="mx-2" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="mx-2" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="mx-2" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        </div>
+
+                        <img src="/assets/images/logotipo-blanco-01.png" alt="" class="img-fluid logo-footer">
+
+                        <div class="small text-center mb-2">
+                            &copy; <a href="#!">Paquetería MAUI</a><span>.
+                                Todos los derechos reservados.
+                                <script>document.write(new Date().getFullYear())</script>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3">
+                        <h4>Contacto</h4>
+                        <p class="text-light fw-light">Calzada Jesús González Gallo 2978 <br>
+                            Guadalajara, Jalisco. México.<br><br>
+                            <strong>Teléfono:</strong> +52 3315 78 0291<br>
+                            <strong>Email:</strong> avelazquez_maui@gmail.com<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Top button -->
+    <button onclick="topFunction()" id="top-button"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- Scripts -->
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
+
 </html>

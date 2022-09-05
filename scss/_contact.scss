@@ -1,0 +1,103 @@
+.contact-subtitle {
+  margin: 0;
+  padding: 0;
+}
+.contact-subtitle h2 {
+  color: var(--mprimary-100);
+  text-align: left;
+  font-size: 2.375rem;
+}
+
+div.row div.col-lg-6 p {
+  padding-top: 2rem;
+  color: #757575;
+  text-align: left;
+  font-weight: 400;
+}
+
+#contact-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+#contact-form .form-group input.form-control {
+  padding: 7px 0 7px 0;
+  border-radius: 8px;
+}
+
+#contact-form .form-group textarea.form-control {
+  border-radius: 8px;
+}
+
+#contact-form .form-group textarea.form-control::placeholder {
+  padding: 0 16px 0 0;
+  font-size: 0.85rem;
+  color: #707070;
+  font-weight: normal;
+}
+
+#contact-form .form-group input.form-control::placeholder {
+  padding: 16px;
+  font-size: 0.85rem;
+  color: #707070;
+  font-weight: normal;
+}
+
+#contact-form button.btn.btn-msecondary-100.rounded-3 {
+  text-transform: uppercase;
+  max-width: 300px;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px 22px 10px 22px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.mt-card {
+  margin-top: 21px;
+}
+
+div.card.bg-transparent div.card-body {
+  padding-left: 3.5rem;
+}
+
+div.card-body div.mt-card h6.title-card {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--mprimary-130);
+  letter-spacing: 0.5px;
+  margin: 0;
+  padding: 0;
+}
+
+div.card-body div.mt-card p.subtitle-card.small {
+  text-align: left;
+  margin: 10px 0;
+  padding: 0;
+  color: var(--mdark);
+}
+
+.social-links-contact {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.social-links-contact a {
+  font-size: 18px;
+  display: inline-block;
+  background: var(--mprimary-100);
+  color: var(--mlight);
+  line-height: 1;
+  padding: 10px 0;
+  border-radius: 50px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.social-links-contact a:hover {
+  background: var(--mprimary-130);
+  color: #fff;
+  text-decoration: none;
+}
