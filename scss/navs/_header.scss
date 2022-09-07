@@ -112,3 +112,23 @@ div.header-bar .col-1 {
   left: 0px;
   background-color: rgba(0, 0, 0, 0.25);
 }
+
+#main-header-privacy {
+  position: relative;
+  height: calc(500px - 16px);
+  min-height: calc(500px - 16px);
+  background-image: url("/assets/images/flotilla-maui.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#main-header-privacy::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+}

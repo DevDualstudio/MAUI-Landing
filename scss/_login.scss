@@ -1,15 +1,74 @@
-$input-border-radius: 0.250rem;
-
 .btn.btn-msecondary-100.rounded-5 {
-   color: rgb(255, 255, 255);
-   font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
 }
 
 a.text-decoration-none {
-    color: #35b9cb;
+  color: #35b9cb;
 }
 
 a.text-decoration-none:hover {
-    color: #1ea8bb;
+  color: #1ea8bb;
 }
 
+#login h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: var(--mprimary-100);
+}
+
+#login img {
+  object-fit: cover;
+  object-position: center left;
+}
+
+#login p {
+  color: #707070;
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+#login form {
+  width: 35rem;
+}
+
+#login div.my-2.mb-4.text-center button.btn.btn-msecondary-100 {
+  width: 100%;
+  color: var(--mlight);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  border-radius: 15px;
+  height: 48px;
+}
+
+#login div.px-5.ms-xl-4.my-5 {
+  max-width: 647.5px;
+  position: relative;
+}
+#login div.px-5.ms-xl-4.my-5 h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#login div.px-5.ms-xl-4.my-5 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+#login form input.form-control.form-control-lg.bg-mgrey {
+  padding: 0.801rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+  color: #707070;
+  font-weight: normal;
+}
