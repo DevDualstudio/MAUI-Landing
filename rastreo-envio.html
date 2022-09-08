@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | MAUI</title>
+    <title>Rastrear mi envío | MAUI </title>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +22,10 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-
 </head>
 
 <body>
+
     <!-- Top Bar -->
     <section id="topbar" class="d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-end">
@@ -75,76 +76,156 @@
             </div>
         </div>
     </nav>
+
+
     <!-- End Navbar -->
 
-    <section class="login" id="login">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 px-0 d-none d-sm-block">
-                    <img src="/assets/images/joyful-male-worker-with-parcel-standing-in-coffee-2022-01-19-15-56-53-utc.jpg"
-                        class="w-100 vh-100" alt="">
+    <!-- Form header -->
+    <header id="main-header-index">
+        <div class="container">
+            <div class="row" id="div-form-header">
+                <div class="col-lg-8" id="form-header">
+                    <form>
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-0 py-3"
+                                placeholder="Ingresa tu número de rastreo">
+                            <button class="btn btn-mprimary-100 rounded-0 py-3 px-4" type="button">Rastrear</button>
+                        </div>
+                    </form>
+                    <div class="my-2">
+                        <button type="button" class="btn btn-light rounded-0 py-2 px-4 border-0">Búsqueda
+                            avanzada</button>
+                        <button type="button" class="btn btn-mdark rounded-0 py-2 px-4 border-0 ms-2">¿Necesitas
+                            ayuda?</button>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Form header -->
 
-                <div class="col-sm-6 my-5">
-                    <div class="px-5 ms-xl-4">
-                        <h1>Inicia sesión para continuar</h1>
-                        <p>¿No tienes cuenta? Crea tu cuenta de cliente <a class="text-decoration-none"
-                                href="#!">aquí</a></p>
-                    </div>
-
-                    <div class="d-flex align-items-center px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-                        <form method="" action="">
-                            <div class="mb-4">
-                                <label for="emailInput" class="form-label">Email</label>
-                                <input type="email" class="form-control form-control-lg bg-mgrey" id="emailInput"
-                                    placeholder="admin@company.com">
-                            </div>
-
-                            <div class="mb-4">
-                                <label for="passwordInput" class="form-label">Contraseña</label>
-                                <input type="password" class="form-control form-control-lg bg-mgrey" id="passwordInput">
-                            </div>
-
-                            <div class="row mb-4">
-                                <div class="col d-flex justify-content-center px-5 ms-xl-4">
-                                    <!-- Checkbox -->
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="form2Example31"
-                                            checked />
-                                        <label class="form-check-label small" for="form2Example31"> Recordar mi
-                                            contraseña </label>
-                                    </div>
-                                </div>
-
-                                <div class="col">
-                                    <!-- Simple link -->
-                                    <a class="text-decoration-none small" href="#!">¿Olvidaste tu contraseña?</a>
-                                </div>
-                            </div>
-
-                            <div class="my-2 mb-4 text-center">
-                                <button class="btn btn-msecondary-100" type="button"
-                                    style="">Iniciar
-                                    sesión</button>
-                            </div>
-                        </form>
-                    </div>
-
-                    
-                    <div class="px-5 ms-xl-4 my-5">
-
-                        <h4>¿Necesitas ayuda?</h4>
-                        <a href="#!">Servicio de atención al cliente</a>
-
-
-                    </div>
-                    
-
+    <section class="mt-5">
+        <div class="container">
+            <h1 class="title-section-fn mb-5">Sigue el estatus de tu envío</h1>
+            <div class="row text-lg-center mx-auto py-3">
+                <div class="col-lg-4 info-track">Número de guía:
+                    <strong>272953286070</strong>
+                </div>
+                <div class="col-lg-4 info-track">
+                    Servicio:
+                    <strong>Express</strong>
+                </div>
+                <div class="col-lg-4 info-track">
+                    Fecha estimada de entrega:
+                    <strong>05/02/22</strong>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="bg-mprimary-020">
+        <div class="container">
+            <article class="card">
+                <div class="card-body">
+                    <div class="title-card">
+                        <h3>Entregado</h3>
+                        <p>El viernes 05/02/2022 a las 15:55</p>
+                    </div>
+                    <div class="track">
+                        <div class="step active"> <span class="icon"> <img src="/assets/icons/box-shipping.svg"> </span>
+                            <span class="text">Paquete Recibido</span>
+                        </div>
+                        <div class="step active"> <span class="icon"> <img src="/assets/icons/shipped.svg"> </span>
+                            <span class="text">En Tránsito</span>
+                        </div>
+                        <div class="step"> <span class="icon"> <img src="/assets/icons/order-on-the-way.svg"> </span>
+                            <span class="text">
+                                En Proceso de Entrega</span>
+                        </div>
+                        <div class="step"> <span class="icon"> <img src="/assets/icons/home.svg"></span> <span
+                                class="text">Entregado</span> </div>
+                    </div>
+                </div>
+            </article>
+
+            <div class="row mx-auto py-3">
+                <div class="col-lg-12 received">Recibido por:
+                    <strong>MARIANA LOPEZ</strong>
+                </div>
+                <div class="row justify-content-center text-lg-center">
+                    <div class="col-lg-4 origin">
+                        <h4>Origen</h4>
+                        <p>Guadalajara, Jal, Mx</p>
+                    </div>
+                    <div class="col-lg-4 origin">
+                        <h4>Destino</h4>
+                        <p>Ciudad de México, Mx</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="my-4">
+        <div class="container mx-auto">
+            <h1 class="title-track">Datos del envío</h1>
+            <div class="row justify-content-center" id="ship-info">
+                <div class="col-lg-4">
+                    <h6>Número de rastreo</h6>
+                    <p>272953286070</p>
+
+                    <h6>Dimensiones</h6>
+                    <p> 20x13x18 cm.</p>
+
+                    <h6>Peso total del envío</h6>
+                    <p>2.2 lb. / 1 kg.</p>
+
+                    <h6>Referencias del remitente </h6>
+                    <p>Casa con puerta negra</p>
+
+                    <h6>Fecha de envío</h6>
+                    <p>04/02/2022</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h6>Servicio</h6>
+                    <p>Express</p>
+
+                    <h6>Entregado a</h6>
+                    <p>Casa - Habitación</p>
+
+                    <h6>Términos </h6>
+                    <p>Distribuidor</p>
+
+                    <h6>Tipo de embalaje</h6>
+                    <p>Proporcionado Por el Client</p>
+
+                    <h6>Fecha de entrega estimada</h6>
+                    <p>05/02/2022 Antes de finalizar el día</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h6>Peso</h6>
+                    <p>2.2 lb. / 1 kg.</p>
+
+                    <h6>Total de piezas</h6>
+                    <p>1</p>
+
+                    <h6>Orden de compra</h6>
+                    <p>044875</p>
+
+                    <h6>Manejo especial</h6>
+                    <p>Realizar Entrega en Día Hábil</p>
+
+                    <h6>Fecha de entrega real</h6>
+                    <p>05/02/2022 15:55 Hrs</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
     <!--  Footer -->
     <div class="footer-bar">
         <div class="col-1-3">

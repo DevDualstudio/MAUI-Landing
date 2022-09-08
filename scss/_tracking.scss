@@ -1,0 +1,147 @@
+.title-section-fn {
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: var(--mprimary-100);
+  font-size: 3.35rem;
+}
+
+div.info-track {
+  font-weight: 400;
+  font-size: 1.35rem;
+}
+
+article.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: transparent;
+}
+
+.title-card {
+  text-align: center;
+}
+
+.title-card h3 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: rgb(0, 153, 0);
+}
+
+.title-card p {
+  font-weight: 500;
+  text-align: center;
+  font-size: 1.75rem;
+  letter-spacing: 0.5px;
+}
+
+.track {
+  position: relative;
+  background-color: #ddd;
+  height: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3.75rem;
+  margin-top: 3.75rem;
+}
+.track .step {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 25%;
+  margin-top: -38px;
+  text-align: center;
+  position: relative;
+}
+.track .step.active:before {
+  background: rgb(0, 153, 0);
+}
+.track .step::before {
+  height: 7px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  top: 38px;
+}
+.track .step.active .icon {
+  background: rgb(0, 153, 0);
+  color: #fff;
+}
+.track .icon {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  border-radius: 100%;
+  background: #ddd;
+}
+
+span.icon img {
+  width: 40px;
+  height: auto;
+}
+
+.track .step.active .text {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #000;
+}
+.track .text {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 7px;
+}
+
+div.col-lg-12.received {
+  font-weight: 400;
+  font-size: 1.35rem;
+  margin: 24px 0 24px 0;
+  text-align: center;
+}
+
+div.col-lg-4.origin h4 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+div.col-lg-4.origin p {
+  margin: 24px 0 24px 0;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.title-track {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--mprimary-100);
+}
+
+#ship-info div.col-lg-4 h6 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--mprimary-100);
+  margin-top: 1.75rem;
+}
+
+#ship-info div.col-lg-4 p {
+  font-weight: 400;
+  color: #757575;
+  margin-top: 1rem;
+}
