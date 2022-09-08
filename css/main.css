@@ -690,10 +690,6 @@ article.card {
   background-color: transparent;
 }
 
-.title-card {
-  text-align: center;
-}
-
 .title-card h3, .title-card .h3 {
   font-size: 2.75rem;
   font-weight: 700;
